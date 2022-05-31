@@ -12,7 +12,7 @@ import {
 
 export default function HeaderComponent() {
   return (
-    <Container maxW={"7xl"}>
+    <Container maxW={"7xl"} minHeight={"100vh"}>
       <Stack
         align={"center"}
         spacing={{ base: 8, md: 10 }}

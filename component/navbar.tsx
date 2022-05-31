@@ -265,6 +265,10 @@ interface NavItem {
 
 const NAV_ITEMS: Array<NavItem> = [
   {
+    label: "Home",
+    href: "/",
+  },
+  {
     label: "Inspiration",
     children: [
       {
@@ -290,16 +294,16 @@ const NAV_ITEMS: Array<NavItem> = [
       {
         label: "Freelance Projects",
         subLabel: "An exclusive list for contract work",
-        href: "#",
+        href: "/",
       },
     ],
   },
   {
-    label: "Learn Design",
-    href: "#",
+    label: "Training",
+    href: "training",
   },
   {
-    label: "Hire Designers",
+    label: "Our Work",
     href: "#",
   },
 ];
